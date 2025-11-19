@@ -1,0 +1,321 @@
+{
+  "accessors": [
+    {
+      "bufferView": 2,
+      "componentType": 5126,
+      "count": 9190,
+      "max": [
+        27.95048713684082,
+        67.08779907226563,
+        54.328216552734375
+      ],
+      "min": [
+        -93.77470397949219,
+        9.768902778625488,
+        35.37673568725586
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 110280,
+      "componentType": 5126,
+      "count": 9190,
+      "max": [
+        0.9995927810668945,
+        0.9992684721946716,
+        0.9998981356620789
+      ],
+      "min": [
+        -0.9986382126808167,
+        -0.9996697902679443,
+        -0.9997793436050415
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5126,
+      "count": 9190,
+      "max": [
+        0.7371469736099243,
+        1.0
+      ],
+      "min": [
+        0.12426300346851349,
+        0.6464080214500427
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "componentType": 5125,
+      "count": 55116,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 220560,
+      "componentType": 5126,
+      "count": 7869,
+      "max": [
+        80.15584564208984,
+        42.11824035644531,
+        53.0822868347168
+      ],
+      "min": [
+        -118.45468139648438,
+        -16.134342193603516,
+        3.1405529975891113
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 314988,
+      "componentType": 5126,
+      "count": 7869,
+      "max": [
+        0.9994201064109802,
+        0.9999970197677612,
+        0.9999553561210632
+      ],
+      "min": [
+        -0.9995237588882446,
+        -0.9996045231819153,
+        -0.9999101161956787
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 73520,
+      "componentType": 5126,
+      "count": 7869,
+      "max": [
+        1.0,
+        0.9767540097236633
+      ],
+      "min": [
+        0.0,
+        0.04495399817824364
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 220464,
+      "componentType": 5125,
+      "count": 47178,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 409416,
+      "componentType": 5126,
+      "count": 3104,
+      "max": [
+        49.839942932128906,
+        20.26841163635254,
+        17.802230834960938
+      ],
+      "min": [
+        15.616127014160156,
+        -8.71435546875,
+        0.7311699986457825
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 446664,
+      "componentType": 5126,
+      "count": 3104,
+      "max": [
+        0.9972350001335144,
+        0.9997130036354065,
+        0.9999553561210632
+      ],
+      "min": [
+        -0.9985421299934387,
+        -0.9996045827865601,
+        -0.9999101161956787
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 136472,
+      "componentType": 5126,
+      "count": 3104,
+      "max": [
+        0.8473600149154663,
+        0.31850799918174744
+      ],
+      "min": [
+        0.6750440001487732,
+        0.0
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 409176,
+      "componentType": 5125,
+      "count": 18612,
+      "type": "SCALAR"
+    }
+  ],
+  "asset": {
+    "extras": {
+      "author": "surajbist999 (https://sketchfab.com/surajbist999)",
+      "license": "CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)",
+      "source": "https://sketchfab.com/3d-models/clouds-cartoon-894190630e2940088284d53e19cb6a89",
+      "title": "Clouds Cartoon"
+    },
+    "generator": "Sketchfab-15.70.0",
+    "version": "2.0"
+  },
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 483624,
+      "name": "floatBufferViews",
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteLength": 161304,
+      "byteOffset": 483624,
+      "byteStride": 8,
+      "name": "floatBufferViews",
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 483912,
+      "byteOffset": 644928,
+      "byteStride": 12,
+      "name": "floatBufferViews",
+      "target": 34962
+    }
+  ],
+  "buffers": [
+    {
+      "byteLength": 1128840,
+      "uri": "scene.bin"
+    }
+  ],
+  "materials": [
+    {
+      "doubleSided": true,
+      "name": "lambert2SG",
+      "pbrMetallicRoughness": {
+        "metallicFactor": 0.0,
+        "roughnessFactor": 0.6
+      }
+    }
+  ],
+  "meshes": [
+    {
+      "name": "Object_0",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 1,
+            "POSITION": 0,
+            "TEXCOORD_0": 2
+          },
+          "indices": 3,
+          "material": 0,
+          "mode": 4
+        }
+      ]
+    },
+    {
+      "name": "Object_1",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 5,
+            "POSITION": 4,
+            "TEXCOORD_0": 6
+          },
+          "indices": 7,
+          "material": 0,
+          "mode": 4
+        }
+      ]
+    },
+    {
+      "name": "Object_2",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 9,
+            "POSITION": 8,
+            "TEXCOORD_0": 10
+          },
+          "indices": 11,
+          "material": 0,
+          "mode": 4
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "children": [
+        1
+      ],
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        2.220446049250313e-16,
+        -1.0,
+        0.0,
+        0.0,
+        1.0,
+        2.220446049250313e-16,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "name": "Sketchfab_model"
+    },
+    {
+      "children": [
+        2,
+        3,
+        4
+      ],
+      "name": "Clouds__Cartoon.obj.cleaner.materialmerger.gles"
+    },
+    {
+      "mesh": 0,
+      "name": "Object_2"
+    },
+    {
+      "mesh": 1,
+      "name": "Object_3"
+    },
+    {
+      "mesh": 2,
+      "name": "Object_4"
+    }
+  ],
+  "scene": 0,
+  "scenes": [
+    {
+      "name": "Sketchfab_Scene",
+      "nodes": [
+        0
+      ]
+    }
+  ]
+}
