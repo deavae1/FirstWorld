@@ -96,21 +96,37 @@ World.create(document.getElementById('scene-container'), {
   camera.updateProjectionMatrix();
 
   
-  //treasure
-  const treasureModel = AssetManager.getGLTF('treasure').scene;
-  treasureModel.scale.set(20, 20, 20);
-  treasureModel.position.set(20, 1, -20);
-  //clone
-  const treasureGroup = new THREE.Group();
-  const treasureCount = 3; 
-  for (let i = 0; i < treasureCount; i++) {
-    const clone = treasureModel.clone(true);
-    const x = (Math.random() - 0.5) * 140;
-    const z = (Math.random() - 0.5) * 140; 
-    clone.position.set(x, 1, z);
-    treasureGroup.add(clone);
+// TREASURE SECTION (fixed)
+const treasureModel = AssetManager.getGLTF('treasure').scene;
+treasureModel.scale.set(20, 20, 20);
+
+const treasureCount = 3;
+let treasuresCollected = 0;
+
+function checkWin() {
+  if (treasuresCollected >= treasureCount) {
+    alert('🎉 Congratulations! You collected all the treasures!');
   }
-  world.createTransformEntity(treasureGroup);
+}
+
+// create treasures
+for (let i = 0; i < treasureCount; i++) {
+  const clone = treasureModel.clone(true);
+  const x = (Math.random() - 0.5) * 140;
+  const z = (Math.random() - 0.5) * 140;
+  clone.position.set(x, 1, z);
+
+  // Create transform entity for each treasure
+  const treasureEntity = world.createTransformEntity(clone);
+  treasureEntity.addComponent(Interactable);
+
+  // Listen for "click" on each treasure
+  clone.addEventListener("pointerdown", () => {
+    clone.visible = false; // hide when found
+    treasuresCollected += 1;
+    checkWin();
+  });
+}
 
   //floor
   const textureLoader = new THREE.TextureLoader();
